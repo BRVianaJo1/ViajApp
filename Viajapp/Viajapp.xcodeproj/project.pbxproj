@@ -16,6 +16,7 @@
 		7CAF043E2608EBD1007EE88B /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF043D2608EBD1007EE88B /* Viagem.swift */; };
 		7CAF04452608FF27007EE88B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF04442608FF27007EE88B /* TableViewCell.swift */; };
 		7CAF045C26094BD6007EE88B /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF045B26094BD6007EE88B /* ViagemDAO.swift */; };
+		7CAF0468260AD1D1007EE88B /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAF0467260AD1D1007EE88B /* Assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +30,9 @@
 		7CAF0436260568BF007EE88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CAF043D2608EBD1007EE88B /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		7CAF04442608FF27007EE88B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		7CAF045426094910007EE88B /* img5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img5.jpg; sourceTree = "<group>"; };
-		7CAF045526094910007EE88B /* img4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img4.jpg; sourceTree = "<group>"; };
-		7CAF045626094910007EE88B /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
-		7CAF045726094910007EE88B /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
-		7CAF045826094910007EE88B /* img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img1.png; sourceTree = "<group>"; };
 		7CAF045B26094BD6007EE88B /* ViagemDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViagemDAO.swift; path = "../../../../Downloads/Arquivos Projeto/ViagemDAO.swift"; sourceTree = "<group>"; };
 		7CAF045E26094C05007EE88B /* ViagemDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViagemDAO.swift; path = "../../../../../Downloads/Arquivos Projeto/ViagemDAO.swift"; sourceTree = "<group>"; };
+		7CAF0467260AD1D1007EE88B /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = "../../../../Downloads/Arquivos Projeto/Assets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +68,6 @@
 				7CAF044C2609483C007EE88B /* Model */,
 				7CAF044D26094857007EE88B /* Home */,
 				7CAF0450260948BC007EE88B /* ViagemDAO */,
-				7CAF045326094910007EE88B /* Assets */,
 				7CAF042A260568BB007EE88B /* SceneDelegate.swift */,
 				7CAF0428260568BB007EE88B /* AppDelegate.swift */,
 				7CAF042E260568BB007EE88B /* Main.storyboard */,
@@ -79,6 +75,7 @@
 				7CAF0433260568BF007EE88B /* LaunchScreen.storyboard */,
 				7CAF045B26094BD6007EE88B /* ViagemDAO.swift */,
 				7CAF0436260568BF007EE88B /* Info.plist */,
+				7CAF0467260AD1D1007EE88B /* Assets */,
 			);
 			path = Viajapp;
 			sourceTree = "<group>";
@@ -122,18 +119,6 @@
 				7CAF045E26094C05007EE88B /* ViagemDAO.swift */,
 			);
 			path = ViagemDAO;
-			sourceTree = "<group>";
-		};
-		7CAF045326094910007EE88B /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				7CAF045426094910007EE88B /* img5.jpg */,
-				7CAF045526094910007EE88B /* img4.jpg */,
-				7CAF045626094910007EE88B /* img3.jpg */,
-				7CAF045726094910007EE88B /* img2.jpg */,
-				7CAF045826094910007EE88B /* img1.png */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CAF0435260568BF007EE88B /* LaunchScreen.storyboard in Resources */,
+				7CAF0468260AD1D1007EE88B /* Assets in Resources */,
 				7CAF0432260568BF007EE88B /* Assets.xcassets in Resources */,
 				7CAF0430260568BB007EE88B /* Main.storyboard in Resources */,
 			);
